@@ -39,5 +39,5 @@ A full-stack task management and collaboration platform with role-based access f
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/your-username/your-repo.git](https://github.com/shaukumar/next_taskmgmt.git
 cd your-repo
