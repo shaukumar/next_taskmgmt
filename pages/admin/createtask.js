@@ -93,8 +93,8 @@ export default function CreateAndListTasks() {
     try {
       const res = await fetch(
         editingTaskId
-          ? `http://192.168.126.248:5000/api/tasks/${editingTaskId}`
-          : 'http://192.168.126.248:5000/api/tasks/create',
+          ? `https://node-task-management-api-1.onrender.com/api/tasks/${editingTaskId}`
+          : 'https://node-task-management-api-1.onrender.com/api/tasks/create',
         {
           method: editingTaskId ? 'PUT' : 'POST',
           headers: {
@@ -154,7 +154,7 @@ export default function CreateAndListTasks() {
     }
 
     try {
-      const res = await fetch(`http://192.168.126.248:5000/api/tasks/${taskId}`, {
+      const res = await fetch(`https://node-task-management-api-1.onrender.com/api/tasks/${taskId}`, {
         method: 'DELETE',
         headers: {
           Authorization: `Bearer ${admin.token}`,
