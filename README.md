@@ -1,40 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 📝 Task Management System
 
-## Getting Started
+A full-stack task management and collaboration platform with role-based access for **Admins** and **Users**, designed to streamline task assignment, tracking, and team productivity.
 
-First, run the development server:
+## ✨ Features
 
+### 👑 **Admin Panel**
+- ✅ **Admin Login**
+- ✅ **Admin Dashboard** – Overview of platform activities
+- ✅ **Manage Projects** – Create, view, update and delete projects
+- ✅ **View All Tasks** – Access all tasks across the system and also update and delete the task
+- ✅ **Manage Users** – View and manage all registered users
+
+### 🙋‍♂️ **User Panel**
+- ✅ **User Registration (Sign Up)**
+- ✅ **User Login**
+- ✅ **User Dashboard** – Personal overview of assigned and created tasks
+- ✅ **Create Task** – Add new tasks with title, description, due date, priority, and status
+- ✅ **Assigned Tasks** – View tasks assigned to the user
+- ✅ **Notifications** – notification send for particular users
+- ✅ **All Tasks** – List of all personal tasks
+- ✅ **Overdue Tasks** – Highlight overdue tasks for better tracking
+
+---
+
+## ⚙️ **Tech Stack**
+
+| Layer          | Technology                        |
+|----------------|---------------------------------|
+| Frontend       | **Next.js**, **Bootstrap**, **React Icons** |
+| Backend        | **Node.js**, **Express.js**      |
+| Database       | **MongoDB**                      |
+| Authentication | **JWT (JSON Web Token)**         |
+| Version Control| **GitHub (public repository)**   |
+
+---
+
+## 🚀 **Getting Started**
+
+### 1️⃣ Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
